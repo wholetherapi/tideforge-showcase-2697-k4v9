@@ -1,0 +1,12 @@
+title: Tideforge Collective - Prototype Catalogue
+baseurl: /prototype-catalogue
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+defaults:
+  - scope:
+      path: "content/projects"
+    values:
+      layout: project
+markdown: kramdown
